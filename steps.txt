@@ -1,0 +1,14 @@
+
+
+
+build container
+docker build -t testssl-web .
+
+docker run -d -p 10666:10666 testssl-web
+
+
+
+
+
+
+
